@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main2Activity">
+    <TextView
+        android:id="@+id/textView_afiya"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="@android:color/holo_blue_bright"
+        android:text="Afiya"
+
+        android:padding="10dp"
+        android:textSize="20sp"
+        />
+    <TextView
+        android:id="@+id/textView_zakaria"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_green_light"
+        android:text="Zakaria"
+        android:layout_toRightOf="@id/textView_afiya"
+        android:textColor="@android:color/white"
+        android:padding="10dp"
+        android:textSize="20sp"
+        />
+    <TextView
+        android:id="@+id/textView_sultana"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sultana"
+        android:background="@android:color/holo_blue_light"
+        android:padding="10dp"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="20sp"
+        android:layout_alignParentBottom="true"
+        />
+
+    <TextView
+        android:id="@+id/textView_afroza"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Afroza"
+        android:background="@android:color/holo_blue_light"
+        android:padding="10dp"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="20sp"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@id/textView_sultana"
+        />
+
+    <TextView
+        android:id="@+id/textView_fatema"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fatema"
+        android:background="@android:color/holo_blue_light"
+        android:padding="10dp"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="20sp"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+
+        />
+    <TextView
+        android:id="@+id/textView_rokiaa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rokiaa"
+        android:background="@android:color/holo_blue_light"
+        android:padding="10dp"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="20sp"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+
+        />
+    <TextView
+        android:id="@+id/textView_islam"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Islam"
+        android:background="@android:color/holo_blue_light"
+        android:padding="10dp"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="20sp"
+        android:layout_below="@id/textView_rokiaa"
+        android:layout_centerHorizontal="true"
+
+        />
+
+    <TextView
+        android:id="@+id/textView_mohammad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mohammad"
+        android:background="@android:color/holo_blue_light"
+        android:padding="10dp"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="20sp"
+        android:layout_above="@id/textView_rokiaa"
+        android:layout_centerHorizontal="true"
+
+        />
+
+    <TextView
+        android:id="@+id/textView_jainab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Jainab"
+        android:background="@android:color/holo_blue_light"
+        android:padding="10dp"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="20sp"
+
+        android:layout_centerVertical="true"
+
+        />
+
+    <TextView
+        android:id="@+id/textView_nurul"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nurul"
+        android:background="@android:color/holo_blue_light"
+        android:padding="10dp"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="20sp"
+
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+
+        />
+
+    <TextView
+        android:id="@+id/textView_jhuma"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Jhuma"
+        android:background="@android:color/holo_blue_light"
+        android:padding="10dp"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="20sp"
+
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+/>
+
+
+</RelativeLayout>
